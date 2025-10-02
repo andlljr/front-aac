@@ -93,8 +93,19 @@ export default function HomePage(): React.JSX.Element {
         </Button>
       </Box>
 
+      {/* Título e subtítulo */}
+
       <Typography variant="h5" fontWeight="bold" mb={4} color="text.primary">
         Selecione uma opção
+      </Typography>
+
+      <Typography
+        variant="subtitle1"
+        color="text.secondary"
+        textAlign="center"
+        mb={4}
+      >
+        Transforme seus desenhos em histórias com pictogramas
       </Typography>
 
       {error && (

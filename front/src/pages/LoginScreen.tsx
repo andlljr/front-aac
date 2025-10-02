@@ -84,9 +84,17 @@ export default function AuthPage(): React.JSX.Element {
         }}
       >
         <Paper elevation={6} sx={{ p: 4, borderRadius: 3, width: "100%" }}>
-          <Typography variant="h5" align="center" fontWeight="bold" gutterBottom>
-            {tab === "login" ? "Entrar" : "Registrar"}
+          {/* Título do app */}
+          <Typography
+            variant="h4"
+            align="center"
+            fontWeight="bold"
+            color="primary.main"
+            gutterBottom
+          >
+            Pictomagia
           </Typography>
+        
 
           {/* Tabs */}
           <Tabs
