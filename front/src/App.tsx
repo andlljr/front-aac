@@ -15,7 +15,6 @@ function RootNavigator(): React.JSX.Element {
     <Routes>
       {!token ? (
         <>
-          {/* se não tem token, tanto / quanto /login abrem o LoginScreen */}
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="/login" element={<LoginScreen />} />
         </>
